@@ -62,7 +62,7 @@ class Robot {
 	/**
 	 * New camera.
 	 */
-   newCamera()
+   	newCamera()
 	{
 		const aspect = this.windowWidth / this.windowHeight;
 		const fieldOfView = 45;
@@ -75,7 +75,7 @@ class Robot {
 	/**
 	 * New lights.
 	 */
-   newLight()
+   	newLight()
 	{
 		const ambientLight = new THREE.AmbientLight(0xe9e9e9, 1);
 		ambientLight.position.set(0, 100, 0);
@@ -92,7 +92,7 @@ class Robot {
 	/**
 	 * New ground.
 	 */
-   newGround()
+   	newGround()
 	{
 		const geometry = new THREE.PlaneGeometry(45,45);
 		const material = new THREE.MeshLambertMaterial({color: 0x9555b0});
